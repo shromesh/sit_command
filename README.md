@@ -8,10 +8,11 @@
     ```
 1. Now you can use stree command!
     ```
-    sample $ st .
-    >> .
-    >> ./hoge
-    >> ./hoge/fuga.txt
-    >> ./hoge/fugafuga.txt
-    >> ./hogefuga.txt
+    $ st .
+    
+    .
+    ./hoge
+    ./hoge/fuga.txt
+    ./hoge/fugafuga.txt
+    ./hogefuga.txt
     ```
