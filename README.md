@@ -13,5 +13,5 @@
     >> ./hoge
     >> ./hoge/fuga.txt
     >> ./hoge/fugafuga.txt
-    >> ./hogefuga.txt
+    >> ./fugahoge.txt
     ```
