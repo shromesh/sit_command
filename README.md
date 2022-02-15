@@ -9,7 +9,8 @@
 1. Now you can use stree command!
     ```
     $ st .
-    
+    ```
+    ```
     .
     ./hoge
     ./hoge/fuga.txt
