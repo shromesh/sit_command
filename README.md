@@ -1,2 +1,2 @@
-# tree_command
-made a simple tree command
+# tree command
+### made a simple tree command
