@@ -12,8 +12,11 @@
     ```
     ```
     .
-    ./hoge
-    ./hoge/fuga.txt
-    ./hoge/fugafuga.txt
-    ./hogefuga.txt
+    ./empty_dir
+    ./dir0/hoge.txt
+    ./dir0/dir1/hoge.txt
+    ./dir0/dir1/empty_dir
+    ./hogehoge.txt
     ```
+
+Sit command doesn't work well when the name of target directories include space. 
