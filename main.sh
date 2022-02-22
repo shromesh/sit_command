@@ -1,17 +1,19 @@
-#! /bin/bash
+#!/bin/bash
 
-stree ()
+sit ()
 {
     local filepath=$1
-    echo "$filepath"
-
-    if [ -d "$filepath" ]; then
+    # terminal condition
+    if [ ! -d "$filepath" -o $(ls "$filepath" | wc -l) = 0 ]; then
+        echo "$filepath"
+    # call recursively
+    else
         local content
         for content in $(ls "$filepath")
         do
-            stree "$filepath/$content"
+            sit "$filepath/$content"
         done
     fi
 }
 
-stree "$1"
+sit "$1"
