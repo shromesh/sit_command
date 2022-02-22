@@ -19,4 +19,4 @@
     ./hogehoge.txt
     ```
 
-Sit command doesn't work well when the name of target directories include space. 
+Sit command doesn't work well when the name of target directories include spaces. 
